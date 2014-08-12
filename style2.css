@@ -1,0 +1,107 @@
+header. section. footer. aside. nav. article. figure. figcaption {
+  display: block;
+}
+
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url("dark-wood.jpg");
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  /*border: 2px solid #000000;*/
+  background-color: #ffffff;
+}
+
+header {
+  height: 160px;
+  background-color: #FFFFFF;
+}
+
+#bourbonglass {
+  height: 160px;
+  margin: 0px 0px -20px 20px;
+  padding: 0px 0px 10px 0px;
+  background-image: url("bourbon_whiskey_glass.jpg")
+  repeat: none;
+}
+
+#contactBlock {
+  text-align: right;
+  float: right;
+  vertical-align: bottom;
+  width: 220px;
+  padding: auto 10px 15px 20px;
+  margin-right: 20px;
+  margin-top: 110px;
+}
+
+h1 {
+  text-indent: -9999px;
+  width: 940px;
+  height: 0px;
+  margin: 0px;
+}
+
+nav {
+  height: 30px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav li a {
+  color: #000000;
+}
+
+nav li a:hover, nav li a.current {
+  color: #DEB887;
+}
+
+.bottomLine {
+  height: 5px;
+  background-color: #000000;
+}
+
+.topLine {
+  height: 5px;
+  background-color: #000000;
+}
+
+.container {
+  background-color: #ff000;
+  /*display: inline;*/
+}
+
+.five.columns{
+  background-color: #ffffdb;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 20px;
+}
+
+.ten.columns{
+  background-color: #ffffdb;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.bottlePhoto {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#bottomContainer {
+  margin-top: 20px;
+}
