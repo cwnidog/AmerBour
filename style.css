@@ -15,11 +15,7 @@ body {
 .wrapper {
   width: 940px;
   margin: 20px auto 20px auto;
-<<<<<<< HEAD
   border: 2px solid #000000;
-=======
-  /*border: 2px solid #000000;*/
->>>>>>> f595718d18d82e36e6623cff9b323f1544fdd883
   background-color: #ffffff;
 }
 
